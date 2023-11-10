@@ -1,4 +1,0 @@
----
-tags:
-  - Biblographic_Review
----
