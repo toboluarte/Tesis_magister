@@ -13,7 +13,6 @@
 		{"id":"1b9b27d3f4c9020c","type":"text","text":"MOLDEAMIENTO","x":-390,"y":-640,"width":250,"height":60},
 		{"id":"baed2a9719547ddd","type":"text","text":"ACIDOS GRASOS DE CADENA CORTA","x":-540,"y":-339,"width":250,"height":60},
 		{"id":"9e611f2a27571c59","type":"text","text":"FERMENTACIÓN SACARLOÍTICA","x":-82,"y":-440,"width":250,"height":60},
-		{"id":"b789af26dae2a1d8","type":"text","text":"DIETA","x":-1040,"y":-500,"width":250,"height":60},
 		{"id":"8f61ae20228ecc8f","type":"text","text":"AUMENTO DE PRODUCCIÓN\n","x":490,"y":-250,"width":300,"height":60},
 		{"id":"90a8904cc4f01ef0","type":"text","text":"BUTIRATO","x":-10,"y":-220,"width":250,"height":60},
 		{"id":"873ab87612e858f0","type":"text","text":"REDUCCIÓN DE PH LUMINAL","x":-290,"y":-54,"width":250,"height":60},
@@ -54,7 +53,8 @@
 		{"id":"2a89aff682959c0f","type":"text","text":"LNFP III","x":900,"y":280,"width":250,"height":60,"color":"2"},
 		{"id":"f574a9e9938e8643","type":"text","text":"LNFP I","x":913,"y":120,"width":250,"height":60,"color":"2"},
 		{"id":"7cae3c62016bfd2f","type":"text","text":"*Bifidobacterium longum subsp infantis*","x":-140,"y":-968,"width":250,"height":60},
-		{"id":"ec0de5f71f193f65","x":2203,"y":-2718,"width":250,"height":60,"color":"3","type":"text","text":"MODELAMIENTO\n"}
+		{"id":"ec0de5f71f193f65","type":"text","text":"MODELAMIENTO\n","x":2203,"y":-2718,"width":250,"height":60,"color":"3"},
+		{"id":"b789af26dae2a1d8","type":"text","text":"DIETA","x":-1360,"y":-470,"width":250,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"b9848850281a57ad","fromNode":"90a8904cc4f01ef0","fromSide":"bottom","toNode":"83c689b65a57c561","toSide":"top"},
@@ -143,6 +143,7 @@
 		{"id":"d9326df24b4628b3","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"f574a9e9938e8643","toSide":"left"},
 		{"id":"cefe4ae547d0ceec","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"2a89aff682959c0f","toSide":"left"},
 		{"id":"488e96a1dcc32724","fromNode":"aba49c5b81d769db","fromSide":"right","toNode":"f574a9e9938e8643","toSide":"top"},
-		{"id":"a6f93d9aefc3c8b1","fromNode":"aba49c5b81d769db","fromSide":"right","toNode":"2a89aff682959c0f","toSide":"top"}
+		{"id":"a6f93d9aefc3c8b1","fromNode":"aba49c5b81d769db","fromSide":"right","toNode":"2a89aff682959c0f","toSide":"top"},
+		{"id":"64acb2994f1fff85","fromNode":"65237f7f900106ca","fromSide":"right","toNode":"9e611f2a27571c59","toSide":"left"}
 	]
 }
