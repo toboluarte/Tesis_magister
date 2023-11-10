@@ -1,5 +1,6 @@
 # Tesis_magister
 Obsidian_Thesis_ecological_interactions
 testeando
-Ahora si podemos probar el push
-QUE!! como que no hay cambios?
+
+Working fine with backup command, but not with the push command.
+We should go deep in Obsidian knowledge
