@@ -10,7 +10,5 @@ Dado que la calidad [[FASTQC]] eran aceptable se procedió a ensamblar el genoma
 quast.py -o ./QuastResults -g prokka_results/PROKKA_11062023.gff -t 8 -1 I1_S39  
 0_L004_R1_001.fastq.gz -2 I1_S390_L004_R2_001.fastq.gz --gene-thresholds 0,1000 Assembly_I1_Def/contigs.fasta --glimmer
 ```
-
-
 ![[Pasted image 20231106124351.png]]
 
