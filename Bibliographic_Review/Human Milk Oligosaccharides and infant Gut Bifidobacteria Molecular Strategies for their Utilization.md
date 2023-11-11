@@ -5,6 +5,9 @@ tags:
   - Daniel_Amedina
   - Pamela_thomson
   - review_HMO
+autores: Daniel Garrido, Pamela Thomson, Daniel A. Medina.
+tipo: review
+organismos: B. infantis, B. breve, B. bifidum
 ---
 ## Introducción
 La leche materna es la forma natural y optima de nutrir a un recién nacido, esta es un alimento complejo, rico en lactosa, ácidos grasos y proteínas que provee de energía al infante. Entre otros efectos se piensa que los niños que son amamantados parecen estar más protegidos contra las infecciones y contra ciertas enfermedades inmunológicas como el asma. 
@@ -21,7 +24,7 @@ Glucosa; Galactosa; N-Acetilglucosamina; Fucosa y Acido N-Acetilneuramínico o �
 El primer año de vida del infante es critico para el asentamiento del microbioma intestinal. Y este juega un papel importante en sintetizar vitaminas y otra moléculas que tienen un rol nutricional para el anfitrión. La fermentación sacarolítica microbiana de la microbiota resulta en la producción de ácidos grasos de cadena corta como acetato, propionato y butirato, los cuales reducen el pH luminal ayudando a la prevención de la colonización de patogenos sensibles al ácido. 
 La producción de acetato contribuye por medio de crossfeeding a la producción de butirato. El cuál es un ácido graso de cadena corta que es el principal sustrato de los colonocitos, contribuyendo a la integridad intestinal. La leche materna ayuda una microbiota intestinal saludable, la cuál es usualmente dominada por especies de *bifidobacterium*, que pueden llegar a representar el 90% del microbioma total, principalmente explicado por la gran cantidad de HMO presentes en la leche materna
 Las bifidobacterias son gram positivas, heterofermentativas, anaerobios estrictos, con un metabolismo fermentativo. *Bifidobacterium* es una de las primeras bacterias en que colonizan el tracto gastrointestinal. Algunas especies como *Bifidobacterium longum subsp. infantis* y *Bifidobacterium breve*, suelen ser más comunes.
-Los genomas de *Bifido bacterium* tienden a contener un largo set de genes relacionada a la utilización de carbohidratos, indicando la prefenecia por carbohidratos complejos, algunos de estos genomas tienen una clara adaptación por los periodos de amamantamiento dominados por los HMO. Muchas cepas de *Bifidobacterium* han mostrado ser capaces de utilizar los HMOs.
+Los genomas de *Bifidobacterium* tienden a contener un largo set de genes relacionada a la utilización de carbohidratos, indicando la prefenecia por carbohidratos complejos, algunos de estos genomas tienen una clara adaptación por los periodos de amamantamiento dominados por los HMO. Muchas cepas de *Bifidobacterium* han mostrado ser capaces de utilizar los HMOs.
 Si se comparan infantes amamantados naturalmente vs los criados con formula, se puede observar una diferencia en la diversidad del microbioma. Principalmente en la aparición de Firmicutes, Bacteroides, Clostridium dificile y ciertas especies de proteobacteria.
 La habilidad para consumir 2FL (fucosyl linkage) podría estar explicada por la base genética de que se han encontrado genes discretos que codifican para transportadores ABC y fucosidasas GH29 y GH95 
 ## Estrategias moleculares para la utilización de HMO
