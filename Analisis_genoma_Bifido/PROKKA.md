@@ -79,3 +79,5 @@ Galactosidasas: 6
 	BDNALMGG_01177 Beta-galactosidase III  
 	BDNALMGG_01735 Beta-galactosidase  
 	BDNALMGG_02018 Beta-galactosidase LacZ
+
+Como podemos observar existen múltiples genes asociados a la ruptura de carbohidratos lo que está respaldado por bibliografía [[Bifidobacteria and Butyrate-producing Colon Bacteria Importance and Strategies for Their Stimulation in the Human Gut]]

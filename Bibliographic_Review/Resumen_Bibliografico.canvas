@@ -54,7 +54,8 @@
 		{"id":"f574a9e9938e8643","type":"text","text":"LNFP I","x":913,"y":120,"width":250,"height":60,"color":"2"},
 		{"id":"7cae3c62016bfd2f","type":"text","text":"*Bifidobacterium longum subsp infantis*","x":-140,"y":-968,"width":250,"height":60},
 		{"id":"ec0de5f71f193f65","type":"text","text":"MODELAMIENTO\n","x":2203,"y":-2718,"width":250,"height":60,"color":"3"},
-		{"id":"b789af26dae2a1d8","type":"text","text":"DIETA","x":-1360,"y":-470,"width":250,"height":60,"color":"3"}
+		{"id":"b789af26dae2a1d8","type":"text","text":"DIETA","x":-1360,"y":-470,"width":250,"height":60,"color":"3"},
+		{"id":"45765028238d974f","x":-1337,"y":-219,"width":250,"height":60,"color":"4","type":"text","text":"BIOREACTOR\n"}
 	],
 	"edges":[
 		{"id":"b9848850281a57ad","fromNode":"90a8904cc4f01ef0","fromSide":"bottom","toNode":"83c689b65a57c561","toSide":"top"},
@@ -106,7 +107,6 @@
 		{"id":"bfbcf9dffe74dcfd","fromNode":"59b9221a76232213","fromSide":"top","toNode":"af5ac6b139c1da4d","toSide":"bottom"},
 		{"id":"f6e8f5844f930c2a","fromNode":"59b9221a76232213","fromSide":"top","toNode":"a08b4958ec0571a4","toSide":"bottom"},
 		{"id":"d8e7983631d0c591","fromNode":"59b9221a76232213","fromSide":"top","toNode":"a08b4958ec0571a4","toSide":"bottom"},
-		{"id":"d9d1c1ad5ccd7fa0","fromNode":"7cae3c62016bfd2f","fromSide":"left","toNode":"146aea761a10017d","toSide":"right"},
 		{"id":"b30e5524c9ae1011","fromNode":"146aea761a10017d","fromSide":"top","toNode":"454431000b525d30","toSide":"bottom"},
 		{"id":"89a3a175ffac827c","fromNode":"4b1c0f961813ae56","fromSide":"right","toNode":"5f64b2b4e6d1cb9b","toSide":"left"},
 		{"id":"497dfaf9a6e680cd","fromNode":"5f64b2b4e6d1cb9b","fromSide":"top","toNode":"288169d21d707771","toSide":"bottom"},
@@ -144,6 +144,8 @@
 		{"id":"cefe4ae547d0ceec","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"2a89aff682959c0f","toSide":"left"},
 		{"id":"488e96a1dcc32724","fromNode":"aba49c5b81d769db","fromSide":"right","toNode":"f574a9e9938e8643","toSide":"top"},
 		{"id":"a6f93d9aefc3c8b1","fromNode":"aba49c5b81d769db","fromSide":"right","toNode":"2a89aff682959c0f","toSide":"top"},
-		{"id":"64acb2994f1fff85","fromNode":"65237f7f900106ca","fromSide":"right","toNode":"9e611f2a27571c59","toSide":"left"}
+		{"id":"64acb2994f1fff85","fromNode":"65237f7f900106ca","fromSide":"right","toNode":"9e611f2a27571c59","toSide":"left"},
+		{"id":"34ecad9dca05e235","fromNode":"7cae3c62016bfd2f","fromSide":"left","toNode":"146aea761a10017d","toSide":"right"},
+		{"id":"842293f4fa797c50","fromNode":"65237f7f900106ca","fromSide":"left","toNode":"45765028238d974f","toSide":"right"}
 	]
 }
