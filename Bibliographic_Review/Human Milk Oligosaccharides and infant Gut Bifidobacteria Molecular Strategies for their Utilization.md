@@ -1,10 +1,6 @@
 ---
 tags:
   - Biblographic_Review
-  - Daniel_Garrido
-  - Daniel_Amedina
-  - Pamela_thomson
-  - review_HMO
 autores: Daniel Garrido, Pamela Thomson, Daniel A. Medina.
 tipo: review
 organismos: B. infantis, B. breve, B. bifidum

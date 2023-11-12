@@ -12,4 +12,4 @@ quast.py -o ./QuastResults -g prokka_results/PROKKA_11062023.gff -t 8 -1 I1_S39
 ```
 ![[Pasted image 20231106124351.png]]
 
-Podemos observar que el tamaño del genoma calza con el descrito en bibliografía, al igual que el porcentaje GC, elevado. [[Bifidobacteria and Butyrate-producing Colon Bacteria Importance and Strategies for Their Stimulation in the Human Gut]]
+Podemos observar que el tamaño del genoma y la cantidad de genes que se han reportado calza con el descrito en bibliografía, al igual que el porcentaje GC, elevado. [[Bifidobacteria and Butyrate-producing Colon Bacteria Importance and Strategies for Their Stimulation in the Human Gut]]

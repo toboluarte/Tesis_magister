@@ -1,7 +1,7 @@
 
 
 ---
-Pico pal que lee
+
 
 ---
 Diapo 2

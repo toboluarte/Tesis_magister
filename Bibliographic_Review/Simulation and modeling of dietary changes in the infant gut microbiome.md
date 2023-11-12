@@ -1,9 +1,6 @@
 ---
 tags:
-  - Daniel_Garrido
-  - Daniel_Amedina
-  - Veronica_ortuzar
-  - Fransisco_Pinto
+  - Biblographic_Review
 autores: Daniel Garrido, Pamela Veronica Ortuzar, Daniel A. Medina., Fransisco Pinto
 organismos: E.coli, B. infantis, B. vulgatus, L. acidophilus
 ---
