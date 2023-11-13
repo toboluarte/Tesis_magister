@@ -24,7 +24,7 @@
 		{"id":"a08b4958ec0571a4","type":"text","text":"TRANSPORTADORES ABC","x":-360,"y":-1420,"width":250,"height":60,"color":"6"},
 		{"id":"ff152cd88aee6626","type":"text","text":"GENOMA","x":168,"y":-1121,"width":250,"height":60,"color":"1"},
 		{"id":"59b9221a76232213","type":"text","text":"GENOMA","x":591,"y":-1121,"width":250,"height":60,"color":"4"},
-		{"id":"e5aeebb926eb928a","type":"text","text":"*Bifidobacterium breve*","x":240,"y":-960,"width":250,"height":60,"color":"1"},
+		{"id":"e5aeebb926eb928a","type":"text","text":"*Bifidobacterium breve*","x":240,"y":-996,"width":250,"height":96,"color":"1"},
 		{"id":"146aea761a10017d","type":"text","text":"ESTRATEGIA EGOISTA","x":-803,"y":-996,"width":250,"height":60,"color":"#190075"},
 		{"id":"454431000b525d30","type":"text","text":"INTERNALIZAR Y NO LIBERAR HMOS","x":-960,"y":-1191,"width":250,"height":60,"color":"2"},
 		{"id":"5f64b2b4e6d1cb9b","type":"text","text":"ESTRATEGIA GENEROSA","x":1014,"y":-968,"width":250,"height":60,"color":"5"},
@@ -129,7 +129,6 @@
 		{"id":"f7431316932dff6d","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"5d52fe834790ec35","toSide":"left"},
 		{"id":"81232105a8b38b06","fromNode":"03b483bdeedb2263","fromSide":"bottom","toNode":"06c2feba74387ee8","toSide":"top"},
 		{"id":"67b79c14c4f1578b","fromNode":"288169d21d707771","fromSide":"right","toNode":"06c2feba74387ee8","toSide":"top"},
-		{"id":"2562d1f9c016a24f","fromNode":"de56fd63adb3c9a6","fromSide":"right","toNode":"06c2feba74387ee8","toSide":"right"},
 		{"id":"a750164f29438136","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"4a5e1549bb4729be","toSide":"left"},
 		{"id":"d05d0ee821bcd5bc","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"22fe016d0dbcf565","toSide":"left"},
 		{"id":"e26250e6bc41f783","fromNode":"bd9ce40d9a66b47b","fromSide":"right","toNode":"c082a6259414bff8","toSide":"left"},
@@ -147,6 +146,7 @@
 		{"id":"64acb2994f1fff85","fromNode":"65237f7f900106ca","fromSide":"right","toNode":"9e611f2a27571c59","toSide":"left"},
 		{"id":"34ecad9dca05e235","fromNode":"7cae3c62016bfd2f","fromSide":"left","toNode":"146aea761a10017d","toSide":"right"},
 		{"id":"842293f4fa797c50","fromNode":"65237f7f900106ca","fromSide":"left","toNode":"45765028238d974f","toSide":"right"},
-		{"id":"bb229d9d21542e9a","fromNode":"a36a021cc42da1e8","fromSide":"top","toNode":"ec0de5f71f193f65","toSide":"bottom"}
+		{"id":"bb229d9d21542e9a","fromNode":"a36a021cc42da1e8","fromSide":"top","toNode":"ec0de5f71f193f65","toSide":"bottom"},
+		{"id":"51305be04138f5e3","fromNode":"06c2feba74387ee8","fromSide":"right","toNode":"de56fd63adb3c9a6","toSide":"right"}
 	]
 }

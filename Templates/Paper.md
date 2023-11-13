@@ -4,10 +4,12 @@ tipo:
 organismos: 
 tags:
   - Biblographic_Review
+resumido:
 ---
 
 # Introducción
 
-# Metodología
+## Metodología
+# Resultados
 
 # Conclusión y Discusiones

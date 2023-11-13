@@ -4,6 +4,7 @@ organismos: B. All
 tipo: review
 tags:
   - Biblographic_Review
+resumido: true
 ---
 ## Introducción
 El inmenso número de genes presentes en la microbiota intestinal expande considerablemente las capacidades bioquímicas y metabólicas. Uno de los ejemplos para esto es la degradación de compuestos no digeribles de la comida, la transformación de compuestos tóxicos y la producción de vitaminas esenciales, productos metabólicos y **bacteriocinas**, estas últimas corresponden a  un tercio de los metabolitos presentes en la sangre humana, jugando un rol importante en la homeostasis intestinal, en el metabolismo y en la salud.

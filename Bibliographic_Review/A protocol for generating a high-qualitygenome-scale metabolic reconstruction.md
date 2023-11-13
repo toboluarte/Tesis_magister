@@ -4,8 +4,8 @@ tipo: review
 organismos: 
 tags:
   - Biblographic_Review
+resumido: false
 ---
-
 # Introducción
 
 # Metodología
