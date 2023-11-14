@@ -1,6 +1,6 @@
 ---
 autores: 
-tipo: 
+tipo: paper
 organismos: 
 tags:
   - Biblographic_Review
