@@ -3,6 +3,8 @@ autores: Pedro Saa, Arles Urrutia, Claudia Silva-Andrade, Alberto J. Martín, Da
 tipo: review
 tags:
   - Biblographic_Review
+resumido: true
+publicado: "2021"
 ---
 # Introducción
 El RNA16s y los estduios metagenomicos han permitido a los científicos evaluar las estructuras de comunidades como la microbiota humana, principalmente en términos de abundancia relativa de especies (riqueza), intra o inter diversidad y funciones metabólicas.

@@ -1,0 +1,4 @@
+---
+tipo: concepto
+---
+En el modelo de Lotka-Volterra, la competencia intraespecífica es representada por un parámetro. Pero qué representa? Algunos autores están insatisfechos con esta representación de caja negra de la competencia. Han descrito el modelo de Lotka-Volterra como fenomenológico y buscan un modelo más mecanístico para representar la competencia. Tilman inventó una clase de modelos, conocidos como la teoría del consumista-recurso. La que se ha convertido en la base de múltiples trabajos en la coexistencia competitiva. En donde los consumidores compiten no por parametros misterios, sino que directamente por medio del consumo de recursos comunes
