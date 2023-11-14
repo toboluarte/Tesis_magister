@@ -1,7 +1,7 @@
 ```dataview
-table contenido
+table resumido
 from "remote_obsidian/Bibliographic_Review"
-WHERE contains(contenido, "papaya")
+WHERE contains(resumido, "[x]") 
 
 ```
 
