@@ -19,7 +19,9 @@ gunzip nr.gz
 makeblastdb -in nr -dbtype prot -out nr
 
 ```
-Debemos ser cuidadosos al escoger los directorios donde vamos a descargar las bases de datos de blast puesto que deberemos indicarle el directorio en el que están cada vez que las queramos utilizar.
+Debemos ser cuidadosos al escoger los directorios donde vamos a descargar las bases de datos de blast puesto que 
+![[Recording 20231115001401.webm]]
+deberemos indicarle el directorio en el que están cada vez que las queramos utilizar.
 ```bash
 %también se pueden usar los archivos .faa de prokka
 blastp -query tus_proteinas_anotadas.fasta -db nr -out resultados_blast.xml -evalue 1e-5 -outfmt 5
