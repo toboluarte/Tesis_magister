@@ -29,16 +29,33 @@ conda activate gtotree
 ```
 Luego de que ya tenemos instalada la herramienta tendremos que generar la lista de genomas que queremos considerar.
 Para esto utilizaremos la base de datos de NCBI assembly para utilizar buscar los últimos ensambles de genomas completos.
+[ncbi assembly](https://www.ncbi.nlm.nih.gov/assembly/?term=Pediococcus%5BORGN%5D+AND+%22latest+refseq%22%5Bfilter%5DAND+%22complete+genome%22%5Bfilter%5D)
+
 ![[Pasted image 20231109172820.png]]
-Ademas con la opción send tu descargaremos una tabla resumen que será de mucha utilidad para poder utilizar **gtotree**
-Luego el archivo descargado de esta query que también puede realizarse por linea de comando utilizando la herramienta esearch. Obtendremos una lista de códigos GCA, mediante comandos bash podemos obtener un archivo de texto separado para poder obtener los códigos GCF que son los que utilizara el programa.
+Además con la opción send to descargaremos una tabla resumen que será de mucha utilidad para poder utilizar **gtotree**
+Luego el archivo descargado de esta query que también puede realizarse por línea de comando utilizando la herramienta esearch. Obtendremos una lista de códigos GCA, mediante comandos bash podemos obtener un archivo de texto separado para poder obtener los códigos GCF que son los que utilizara el programa.
 ```bash
 tail -n +2 assembly_result.txt | cut -f 3 > species_accesion.txt
 
 ```
 Luego de esto si no lo hemos hecho antes debemos descargar los assemblies.
+Utilizando el mismo filtro anterior podemos descargar un archivo .tar con todos los assemblies que cumplan con los requisitos del filtro
+```bash
+tar -xf *.tar
+cd ncbi*
+gunzip *.fna.gz
+mv *.fna ..
+cd ..
+ls *.fna> our_genome_fasta_files.txt
+ls *.gbff > genbank_files.txt
+
+```
+
+
+```
+```
 ```bash 
 GToTree -a Bifidobacterium_Breve_I1_accessions.txt -f our_genome_fasta_files.txt -H Bac  
 teria -t -L Species -j 8 -o GTotree-out
 ```
-Finalmente podemos utilizar la herramienta de visualización Itol 
+Finalmente podemos utilizar la herramienta de visualización [Itol ](https://itol.embl.de/)

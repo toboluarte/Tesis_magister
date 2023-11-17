@@ -10,4 +10,5 @@ spades.py  -1 /run/media/arturo/files/Tesis/Genomas_Tesis/Breve_I
 4_R2_001.fastq.gz       -o      /run/media/arturo/files/Tesis/Genomas_Tesis/Breve_I1_definitivo/Assembly_I1_Def
 ```
 
-Los resultados del ensamble de genoma estarán resumidos en [[QUAST]], además debemos destacar que es necesario utilizar [[PROKKA]] para la anotación de genomas
+Los resultados del ensamble de genoma estarán resumidos en [[QUAST]].
+El paso siguiente es utilizar [[PROKKA]] para la anotación del genoma.

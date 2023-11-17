@@ -21,7 +21,7 @@ Los cambios en la composición de la microbiota han sido asociados con funciones
 	9. Autismo
 Se destaca la relevancia de las interacciones de bacterias presentes en el colon, principalmente las bacterias productoras de **butirato** como las **Bifidobacterias**. Por lo general se ha establecido una norma que bajos niveles de **butirato** están asociados a enfermedades y desregulaciones
 ## Especies de Bifidobacterium
-Son bacterias **gram-positivas**, anaeróbicas, aerolíticas que pertenecen al phylum de las **Actinobacteria**. Un genoma de Bifidobacterium suele tener entre 2.0-2.8 Mb y está caracterizado por un alto contenido GC, con numerosos genes asociados a romper carbohidratos, de orígenes dietarios como del anfitrión.
+Son bacterias **gram-positivas**, anaeróbicas, aerolíticas que pertenecen al phylum de las **Actinobacteria**. Un genoma de Bifidobacterium suele tener entre **2.0-2.8 Mb** y está caracterizado por un alto contenido GC, con numerosos genes asociados a romper carbohidratos, de orígenes dietarios como del anfitrión.
 Son de las primeras bacterias que colonizan el tracto gastrointestinal y tienen su mayor abundancia en el colon, esta abundancia va en decremento en el crecimiento del humano, llegando hasta un 5% en las etapas adultas. 
 Este género está compuesto por 51 especies de las cuales se han encontrado en el colon humano:
 	1. Bifidobacterium animalis
@@ -45,5 +45,5 @@ Las glicosil hidrolasas (**EC 3.2.1.x**) constituyen el grupo enzimático más i
 Por otro lado, estas bacterias son altamente eficientes en el importe de estos sacáridos al interior de la célula, para ser posteriormente degradados a monosacáridos. Cerca del 5% del genoma está dedicado a la internalización de carbohidratos, por medio de sus ATP-binding cassette transporters, permeasas o simporters de protones.
 Se ha demostrado que son capaces de utilizar varios carbohidratos no digeribles como fuentes de energía como algunos derivados de plantas; Pectina; Inulina; Arabinoxilano; Celulosa; Almidón.
 Y otros como los **HMOS** y mucinas.
-Una vez internalizados, estos carbohidratos son convertidos a acetato o lactato por la vía **Fructosa 6-fosfato fosfoketolasa** o más bien conocida como **Bifid Shunt**
+Una vez internalizados, estos carbohidratos son convertidos a acetato o lactato por la vía **Fructosa 6-fosfato fosfoketolasa** o más bien conocida como **Bifid Shunt**.
 Luego el review destaca elementos que no son relevantes para esta busqueda bibliográfica

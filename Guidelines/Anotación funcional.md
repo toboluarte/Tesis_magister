@@ -42,7 +42,7 @@ Primero descargar y descomprimir la herramienta interproscan, luego debemos hace
 ./interproscan.sh -i ../../../files/Tesis/Genomas_Tesis/Breve_I1_definitivo/pr  
 okka_results/PROKKA_11062023.faa -f gff3 -o resultados_interproscan --cpu 8 -goterms -pa --verbose
 ```
-Sin embargo, la mejor opción para luego tener una buena visualización de los datos es que el output se encuentre en formato JSON, dado que podemos usar el visualizador de EBI https://www.ebi.ac.uk/interpro/result/InterProScan/#table 
+Sin embargo, la mejor opción para luego tener una buena visualización de los datos es que el output se encuentre en formato JSON, dado que podemos usar el visualizador de [EBI](https://www.ebi.ac.uk/interpro/result/InterProScan/#table )
 ```bash
 ./interproscan.sh -f JSON -i ../../../files/Tesis/Genomas_Tesis/Breve_I1_definitivo/pr  
 okka_results/PROKKA_11062023.faa -b resultados_interproscan --cpu 8 -goterms -pa --verbose
