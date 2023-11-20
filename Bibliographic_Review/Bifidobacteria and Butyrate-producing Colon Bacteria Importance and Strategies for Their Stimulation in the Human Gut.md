@@ -8,7 +8,7 @@ resumido: true
 ---
 ## Introducción
 El inmenso número de genes presentes en la microbiota intestinal expande considerablemente las capacidades bioquímicas y metabólicas. Uno de los ejemplos para esto es la degradación de compuestos no digeribles de la comida, la transformación de compuestos tóxicos y la producción de vitaminas esenciales, productos metabólicos y **bacteriocinas**, estas últimas corresponden a  un tercio de los metabolitos presentes en la sangre humana, jugando un rol importante en la homeostasis intestinal, en el metabolismo y en la salud.
-Uno de los productos metabólicos más relevantes son los <mark class="hltr-green">ácidos grasos de cadena corta</mark> (), sobre todo para los procesos de fermentación en el colon.
+Uno de los productos metabólicos más relevantes son los <mark class="hltr-green">ácidos grasos de cadena corta</mark> (SCFA), sobre todo para los procesos de fermentación en el colon.
 Los cambios en la composición de la microbiota han sido asociados con funciones perturbadas de la barrera intestinal; Mayor permeabilidad y aumento de concentraciones plasmáticas de lipopolisacáridos, los que causan procesos inflamatorios que se han asociado a la obesidad entre otras enfermedades:
 	1. Cáncer colorrectal 
 	2. Inflamatory Bowel Disease

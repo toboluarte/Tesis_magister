@@ -4,6 +4,7 @@ tags:
 autores: Daniel Garrido, Pamela Thomson, Daniel A. Medina.
 tipo: review
 organismos: B. infantis, B. breve, B. bifidum
+resumido: true
 ---
 ## Introducción
 La leche materna es la forma natural y optima de nutrir a un recién nacido, esta es un alimento complejo, rico en lactosa, ácidos grasos y proteínas que provee de energía al infante. Entre otros efectos se piensa que los niños que son amamantados parecen estar más protegidos contra las infecciones y contra ciertas enfermedades inmunológicas como el asma. 

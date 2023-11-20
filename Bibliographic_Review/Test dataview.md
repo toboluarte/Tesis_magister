@@ -1,7 +1,6 @@
 ```dataview
-table resumido
-from "remote_obsidian/Bibliographic_Review"
-WHERE contains(resumido, "[x]") 
+TABLE Articulos
+from "Tesis_magister/remote_obsidian/Bibliographic_Review"
 
 ```
 

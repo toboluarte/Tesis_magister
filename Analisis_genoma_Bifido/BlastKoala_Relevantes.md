@@ -12,6 +12,7 @@ tags:
 | <mark class="hltr-yellow">amarillo</mark><mark class="hltr-orange">naranjo</mark> | Glucosidasas/Fucosidasas |
                                                                                   |                          |
 
+
 | Anotation | KEGG | EC number and description | COG|
 | -------------- | ---------- | ---------- | ---------- |
 | <mark class="hltr-purple">BDNALMGG_00021</mark> | K12308     |bgaB, lacA; beta-galactosidase [EC:3.2.1.23] |COG1874
