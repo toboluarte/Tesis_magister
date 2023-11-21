@@ -19,9 +19,15 @@ conda create -n bioinformatica fastqc %just an example
 conda init
 conda activate bioinformatica
 ```
-Podremos agregar algunos paquete utiles como prokka, SPADES y QUAST que han sido utilizados.
+Podremos agregar algunos paquetes útiles como prokka, SPADES y QUAST que han sido utilizados.
 ```bash
 conda install -c bioconda spades
 conda install -c bioconda prokka
 conda install -c bioconda quast
+conda install -c bioconda diamond
+```
+Muchas veces se recomienda que cada uno de estos paquetes se encuentre en ambientes separados, pero dependerá de las dependencias que requiera cada uno de los paquetes.
+Para la generación de modelos draft podemos utilizar diferentes programas, uno de ellos es Carveme
+```bash
+pip install carveme
 ```
