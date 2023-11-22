@@ -4,6 +4,7 @@ tipo: protocolo
 organismos: 
 tags:
   - Biblographic_Review
+  - "#Curation"
 resumido: false
 publicado: "2010"
 ---

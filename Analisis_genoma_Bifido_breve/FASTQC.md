@@ -14,5 +14,5 @@ Tanto R1 como R2, presentan buenos indicadores de calidad. Al parecer los archiv
 ![[Pasted image 20231106114521.png]]
 # Next to do
 
-Con estos resultados podemos proceder al ensamblaje de genomas utilizando [[SPADES]] cuyos resultados estarán resumidos en [[QUAST]] 
+Con estos resultados podemos proceder al ensamblaje de genomas utilizando [[remote_obsidian/Analisis_genoma_Bifido_breve/SPADES]] cuyos resultados estarán resumidos en [[QUAST]] 
 

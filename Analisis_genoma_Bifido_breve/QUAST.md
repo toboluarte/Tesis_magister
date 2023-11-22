@@ -4,7 +4,7 @@ tags:
   - Control_calidad
   - Ensamble_genoma
 ---
-Dado que la calidad [[FASTQC]] eran aceptable se procedió a ensamblar el genoma utilizando [[SPADES]] y evaluando la calidad del ensamble genomico utilizando la herramienta QUAST
+Dado que la calidad [[remote_obsidian/Analisis_genoma_Bifido_breve/FASTQC]] eran aceptable se procedió a ensamblar el genoma utilizando [[remote_obsidian/Analisis_genoma_Bifido_breve/SPADES]] y evaluando la calidad del ensamble genomico utilizando la herramienta QUAST
 
 ```bash
 quast.py -o ./QuastResults -g prokka_results/PROKKA_11062023.gff -t 8 -1 I1_S39  

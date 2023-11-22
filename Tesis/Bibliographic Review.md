@@ -9,8 +9,10 @@ publicado:
 keyword:
 ---
 
-# Introducción
+# Introduction
 
-# Resultados
+# Results
 
-# Conclusión y Discusiones
+# Conclusions and discusion
+# References
+
