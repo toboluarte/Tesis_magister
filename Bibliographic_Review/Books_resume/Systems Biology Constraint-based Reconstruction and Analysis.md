@@ -45,6 +45,22 @@ Una red tiene nodos que consisten en compuestos y enlaces que están hechos de l
 Los enlaces son las reacciones glucolíticas, 21 incluyendo las reacciones de transporte.
 ## Reconstrucción de un módulo
 Como se había mencionado anteriormente, esto guarda relación con el siguiente nivel de organización de las reacciones, se podría definir como una estructura de información donde se encuentran conjuntos de vías agrupadas.
+# Network Reconstruction The Process
+## Construir bases de conocimiento
+Una reconstrucción basada en un enfoque bottom-up es una anotación en 2 dimensiones de un genoma. Esta incluye una lista de componentes (filas) y los enlaces entre estos componentes (columnas).
+Existen similitudes en el proceso de reconstrucción con el ensamblaje de un genoma, principalmente porque existe un solapamiento de estructuras de mayor complejidad, en cuanto a información, en el caso del ensamblaje de genomas, se sobrelapan secuencias cada vez más largas formando los contigs. En el caso de la reconstrucción de redes metabólicas se comienza desde una reacción química, luego una vía metabólica, luego las vías un mapa metabólico y finalmente estas reconstrucciones deben pasar por un gapfilling.
+### La Reconstrucción es un proceso de 4 pasos
+* Primero, se construye un draft automático, basado en anotaciones de secuencias del organismo blanco e información asociada.
+* Datos detallados bioquímicos, genéticos y fisiológicos son utilizados para completar y curar la reconstrucción.
+* La reconstrucción es convertida en un formato matemático formando una base de datos de conocimiento a la cual se le pueden hacer consultas respecto a las funciones celulares.
+* Las reconstrucciones son validadas contra muchos data sets que pueden llevar a un loop iterativo e incluir una comparación módulo a módulo.
+#### Draft Reconstruction
+El primer paso es enumerar los componentes de la red. La lista de componentes puede ser obtenida de la secuencia genómica anotada. Para metabolismos, uno recolecta una lista de todos los ORFs que están asociados con enzimas o complejos enzimáticos que catalizan transformaciones metabólicas.
+#### Curación manual
+Las enzimas identificadas en la secuencia genómica, son identificadas basándose en experimentos de clonación o por homología o análisis de similitud.
+En el paso de la curación manual requiere de la examinación del modelo borrador en gran detalle e inorporar información de múltiples fuentes.
+Agregar nuevas reacciones es un proceso de 5 etapas: Las que pueden ser revisadas en [[A protocol for generating a high-qualitygenome-scale metabolic reconstruction]]
+ 
 
 
 
