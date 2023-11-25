@@ -44,6 +44,7 @@ Para generar un modelo debemos seguir las instrucciones de instalación en [[Set
 carve ./PROKKA_11062023.faa --cobra -o /run/media/arturo/files/Tesis/  
 Modelos/bifidobacterium_breve/bifidobacterium_breve_I1.xml --universe grampos --reference /run/media/arturo/files/Te  
 sis/Modelos/Bifidobacterium_breve_UCC2003_NCIMB8807.xml -g M9[-O2] --solver gurobi 
+%con este comando haremos un modelo sin utilizar como referencia le modelo de agora
 
 carve ./PROKKA_11062023.faa --cobra -o ./bifidobacterium_breve_I1.xml --universe grampos --reference /Bifidobacterium_breve_UCC2003_NCIMB8807.xml -g M9[-O2]
 ```
