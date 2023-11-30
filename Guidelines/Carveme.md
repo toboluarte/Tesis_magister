@@ -3,8 +3,6 @@ tags:
   - Model_generation
   - Guide_lines
 ---
-<<<<<<< HEAD
-=======
 Primero me gustaría reparar en la instalación de esta herramienta la que puede ser problemática para algunos casos, sobre todo si es que deseamos utilizar como optimizador Gurobi.
 ```bash
 conda create -n carveme python=3.9
@@ -48,6 +46,6 @@ Modelos/bifidobacterium_breve/bifidobacterium_breve_I1.xml --universe grampos --
 sis/Modelos/Bifidobacterium_breve_UCC2003_NCIMB8807.xml -g M9[-O2] --solver gurobi 
 %con este comando haremos un modelo sin utilizar como referencia le modelo de agora
 
-carve ./PROKKA_11062023.faa --cobra -o ./bifidobacterium_breve_I1.xml --universe grampos --reference /Bifidobacterium_breve_UCC2003_NCIMB8807.xml -g M9[-O2]
+carve ./PROKKA_11062023.faa --fbc2 -o ./bifidobacterium_breve_I1.xml --universe grampos --reference /Bifidobacterium_breve_UCC2003_NCIMB8807.xml -g M9[-O2]
 ```
->>>>>>> origin/main
+
