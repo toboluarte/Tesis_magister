@@ -4,7 +4,7 @@ tipo: protocolo
 organismos: 
 tags:
   - Biblographic_Review
-resumido: false
+resumido: true
 publicado: "2016"
 keyword:
 ---
@@ -23,7 +23,7 @@ El primer paso de construir un modelo es identificar todos los genes presentes e
 # Convirtiendo roles funcionales a reacciones
 Después de identificar los genes codificantes presentes en el organismo, y asignarles funciones a estas proteinas, los complejos enzimáticos creados por estas proteinas deben ser caracterizados. EC numbers son los más utilizados cuando se hacen estos mapeos entre diferentes repositorios porque son las anotacioines más ampliamente utilizadas para los productos genéticos, sin embargo, los EC numbers no cubren todas las reacciones de los microorganismos.
 Los complejos enzimaticos pueden ser formados por uno u múltiples roles funcionales, y cada uno de los roles funcionales puede estar involucrado en uno o más complejos.
-Por ejemplo, el rol funcional de la <mark style="background: #FFF3A3A6;">proteina fosfoenolpiruvato fosfotransferasa del sistema PTS</mark> (EC 2.7.3.9) codificada por el gen ptsI puede estar involucrada en múltiples complejos, cada uno asociado con importar unazúcarr diferente.
+Por ejemplo, el rol funcional de la <mark style="background: #FFF3A3A6;">proteina fosfoenolpiruvato fosfotransferasa del sistema PTS</mark> (EC 2.7.3.9) codificada por el gen ptsI puede estar involucrada en múltiples complejos, cada uno asociado con importar un azúcar diferente.
 Para convertir roles funcionales enreacciones,s estos roles primero deben estar conectados al complejo enzimático. Si el sistema de anotaciones utilizado para identificar los roles en el genoma solamente entrega EC numbers, estos necesitan estar conectados a complejos. La mayoria de las subunidades del mismo complejo enzimático reciben el mismo EC number.
 Las conexiones entre roles funcionales y reacciones o vias pueden ser obtenidas de muchas fuentes como EXPASY, KEGG, METACyc, BRENDA.
 # Convirtiendo reacciones a matrices estequiométricas

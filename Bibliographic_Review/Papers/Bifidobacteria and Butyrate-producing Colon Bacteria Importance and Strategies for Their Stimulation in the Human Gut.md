@@ -26,11 +26,11 @@ Son de las primeras bacterias que colonizan el tracto gastrointestinal y tienen 
 Este género está compuesto por 51 especies de las cuales se han encontrado en el colon humano:
 	1. Bifidobacterium animalis
 	2. Bifidobacterium longum
-	3. **Bifidobacterium bifidum**
+	3. <mark style="background: #FF5582A6;">Bifidobacterium bifidum</mark>
 	4. Bifidobacterium adolecentis
 	5. Bifidobacterium catenulatum
 	6. Bifidobacterium pseudocatenulatum
-	7. **Bifidobacterium breve**
+	7. <mark style="background: #FF5582A6;">Bifidobacterium breve</mark>
 	8. Bifidobacterium pseudolongum
 	9. Bifidobacterium gallicum
 	10. Bifidobacterium angulatum
@@ -42,7 +42,7 @@ Cabe destacar que estas funciones no son específicas del género, sino más bie
 ### Metabolismo
 Las bifidobacterias presentan metabolismos fermentativos estrictos, ganan energía en forma de ATP a nivel de sustrato en la ruptura de carbohidratos anaeróbica.
 Las glicosil hidrolasas (**EC 3.2.1.x**) constituyen el grupo enzimático más importante en el colon, utilizadas para degradar poli y oligosacáridos a monosacáridos fermentables, comparado con el genoma humano, el cual codifica solo para 17 glicosil hidrolasas para la digestión de alimentos, las bifidobacterias poseen un gran número de genes que codifican para carbohidrasas.
-Por otro lado, estas bacterias son altamente eficientes en el importe de estos sacáridos al interior de la célula, para ser posteriormente degradados a monosacáridos. Cerca del 5% del genoma está dedicado a la internalización de carbohidratos, por medio de sus ATP-binding cassette transporters, permeasas o simporters de protones.
+Por otro lado, estas bacterias son altamente eficientes en el importe de estos sacáridos al interior de la célula, para ser posteriormente degradados a monosacáridos. <mark style="background: #FF5582A6;">Cerca del 5% del genoma está dedicado a la internalización de carbohidratos</mark>, por medio de sus ATP-binding cassette transporters, permeasas o simporters de protones.
 Se ha demostrado que son capaces de utilizar varios carbohidratos no digeribles como fuentes de energía como algunos derivados de plantas; Pectina; Inulina; Arabinoxilano; Celulosa; Almidón.
 Y otros como los **HMOS** y mucinas.
 Una vez internalizados, estos carbohidratos son convertidos a acetato o lactato por la vía **Fructosa 6-fosfato fosfoketolasa** o más bien conocida como **Bifid Shunt**.
