@@ -48,3 +48,8 @@ Sin embargo, la mejor opción para luego tener una buena visualización de los d
 okka_results/PROKKA_11062023.faa -b resultados_interproscan --cpu 8 -goterms -pa --verbose
 ```
 De esta forma podremos visualizar de mejor manera las anotaciones funcionales.
+## Otras alternativas
+### Eggnogmapper
+### dbCan-seq : CAZyme
+Carbohydrate Active Enzymes (CAZymes) son significativamente importantes para las comunidades microbianas, en particular para que perseveren en ambientes ricos en carbohidratos como los intestinos animales, suelos agrícolas o forestales y sedimentos oceánicos.
+Estas enzimas tienen como blanco principalmente enlaces glicósidos, ya sea para crearlos o para destruirlos, esta herramienta es básicamente una base de datos que permite identificar estas enzimas por medio de modelos de cadena de marcov desarrollados para esta base de datos en particular, es decir, identificar similitudes en secuencias, de enzimas activas de carbohidratos.
