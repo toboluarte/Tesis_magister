@@ -15,7 +15,6 @@ Supongamos que tenemos los genomas que queremos incluir en el proceso y, además
 + Agrupar los alineamientos de manera horizontal
 + Inferir relaciones evolutivas de estas secuencias combinadas (**árbol filogenético**)
 ![[Pasted image 20231109131639.png]]
-°|
 
 
 # Hands on tutorial

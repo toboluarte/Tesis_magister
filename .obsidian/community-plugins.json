@@ -1,4 +1,6 @@
 [
   "highlightr-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "obsidian-languagetool-plugin"
 ]

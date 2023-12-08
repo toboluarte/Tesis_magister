@@ -15,13 +15,16 @@ En este reporte se utilizaron las siguientes herramientas:
 * DBcan
 
 # Reads
-
+Las lecturas fueron extraidas de un proyecto de secuenciación previo.
 ## Quality Control
+Para el control de calidad de estas lecturas se utilizo FASTQC.  En general siendo la calidad de las lecturas aceptables para continuar el análisis. Además, cabe destacar que se observó que las lecturas se encontraban sin adaptadores, por lo que es altamente probable que se tratasen de lecturas previamente procesadas.
 # Trimming
+Dado que no existian adaptadores en las lecutras este paso fue descartado.
 ## Quality Control
 # Assembly
+El ensamblaje de las lecturas se realizó con el software SPADES
 ## Quality Control
-Para realizar el control de calidad se utilizó el programa QUAST, para esto se generaron scripts para descargar todos los assemblies disponibles en NCBI de Bifidobacterium_Breve 
+Para realizar el control de calidad se utilizó el programa QUAST, para esto se generaron scripts para descargar todos los assemblies disponibles en NCBI de Bifidobacterium_Breve y crear plots para cada uno de los criterios de contiguidad de relevancia que entrega el algoritmo QUAST.
 #### Codigo
 
 ```bash
@@ -167,7 +170,7 @@ plt.tight_layout()
 plt.show()
 ```
 Con esto obtendremos los gráficos para observar el comportamiento de cada una de las variables de Quast. Aunque para analizar la calidad de nuestro ensamble se utilizó la media de cada uno de estos parámetros
-#### Assembly Quality plots
+#### Assembly Quality plots for Bifidobacterium_Breve
 ![[Pasted image 20231206171624.png]]
 #### Codigo
 
@@ -189,20 +192,92 @@ print("Media GC%:", mean_gc)
 #### Análisis
 Los valores obtenidos para estos parámetros son:
 
-Media N50: 339833.27667269437
-Media N75: 295166.321880651
-Media L50: 34.19168173598553
-Media L75: 67.33453887884268
-Media Largest Contig: 424446.75768535264
-Media GC%: 55.570361663652804
-Respecto a nuestro ensamble se obtuvo lo siguiente ![[Pasted image 20231106124351.png]]
-N50: 322.889
-L50: 3 
-Largest contig: 613.951
-GC% : 58.67
-Mismatches = 0
-Por lo tanto, tenemos que nuestro ensamble realizado con SPADES se encuentra por sobre el promedio de los ensambles disponibles, también se confirma el alto %GC de esta especie que coincide con la distribución de la variable en los gráficos anteriores. Respecto a la contigüidad del ensamble, revisaremos la métrica N50 en la cual obtenemos un valor muy cercano al promedio, lo que nos dice que la contigüidad de nuestro ensamble es similar a la de los genomas disponibles en NCBI, incluso si nos fijamos en el criterio L50 obtenemos un valor 10 veces más pequeño que el de los genomas disponibles.
+| Criterio de contiguidad/información | All B. Breve assemblies | Lab Sample I1 |     |
+| ----------------------------------- | ----------------------- | ------------- | --- |
+| N50                                 | 339833.27               | 322889        |     |
+| N75                                 | 295166.321              | No Value      |     |
+| N90                                 | No value                | 140938        |     |
+| L50                                 | 34.19                   | 3             |     |
+| L75                                 | 67.33                   | No Value      |     |
+| L90                                 | No value                | 8             |     |
+| Largest Contig                      | 424446.75               | 613951        |     |
+| %GC                                 | 55.57                   | 58.67         |     |
+
+
+![[Pasted image 20231106124351.png]]
+Fig X. Reporte extensivo de Quast para el ensamble del genoma de Bifidobacterium Breve I1
+
+El ensamble realizado con SPADES de las lecturas realizadas en el laboratorio se encuentra por sobre el promedio de los ensambles disponibles en NCBI en múltiples criterios de contiguidad (N50, L50 y Largest Contig). También se confirma el alto contenido GC de esta especie, lo que coincide con la información disponible bibliográficamente. 
 # Annotation
+Utilizando el ensamblaje obtenido, en una primera instancia se realizaron las predicciones de CDS y anotaciones con el software PROKKA.
+Se anotaron 2151 genes de los cuales con el propósito de este análisis destacan las siguientes categorias vínculadas a la utilización de carbohidratos:
+**ABC transporters: 22**
+	BDNALMGG_00081 putative ABC transporter ATP-binding protein
+	BDNALMGG_00209 putative ABC transporter ATP-binding protein YknY
+	BDNALMGG_00563 putative ABC transporter ATP-binding protein YbiT
+	BDNALMGG_00593 putative ABC transporter ATP-binding protein YlmA
+	BDNALMGG_00722 putative glutamine ABC transporter permease protein GlnP
+	BDNALMGG_00723 putative glutamine ABC transporter permease protein GlnP
+	BDNALMGG_00725 ABC transporter glutamine-binding protein GlnH
+	BDNALMGG_00893 putative glutamine ABC transporter permease protein GlnM
+	BDNALMGG_00894 ABC transporter glutamine-binding protein GlnH
+	BDNALMGG_00978 putative ABC transporter ATP-binding protein
+	BDNALMGG_00979 putative ABC transporter ATP-binding protein
+	BDNALMGG_01210 ABC transporter ATP-binding protein YtrE
+	BDNALMGG_01422 putative ABC transporter ATP-binding protein YknY
+	BDNALMGG_01532 ABC transporter glutamine-binding protein GlnH
+	BDNALMGG_01785 putative ABC transporter ATP-binding protein YknY
+	BDNALMGG_01977 putative ABC transporter ATP-binding protein YknY
+	BDNALMGG_01996 putative ABC transporter ATP-binding protein
+	BDNALMGG_02000 putative ABC transporter ATP-binding protein
+	BDNALMGG_02001 Fatty acid ABC transporter ATP-binding/permease protein
+	BDNALMGG_02012 putative ABC transporter ATP-binding protein
+	BDNALMGG_02025 putative ABC transporter ATP-binding protein
+	BDNALMGG_02026 putative ABC transporter ATP-binding protein
+**Hidrolasas: 16**
+	BDNALMGG_00072 Pyrimidine-specific ribonucleoside hydrolase RihA
+	BDNALMGG_00456 RNA pyrophosphohydrolase  
+	BDNALMGG_00577 Choloylglycine hydrolase  
+	BDNALMGG_00585 Aminopyrimidine aminohydrolase  
+	BDNALMGG_00654 Atrazine chlorohydrolase  
+	BDNALMGG_00833 Peptidyl-tRNA hydrolase  
+	BDNALMGG_00873 Sucrose-6-phosphate hydrolase BDNALMGG_00970 Pyrimidine-specific ribonucleoside hydrolase RihA  
+	BDNALMGG_01059 GTP cyclohydrolase 1  
+	BDNALMGG_01193 Deoxyguanosinetriphosphate triphosphohydrolase-like protein  
+	BDNALMGG_01453 Phosphoribosyl-AMP cyclohydrolase  
+	BDNALMGG_01558 Bifunctional (p)ppGpp Synthase/hydrolase RelA  
+	BDNALMGG_01559 Deoxyuridine 5'-triphosphate nucleotidohydrolase  
+	BDNALMGG_02029 Gamma-glutamyl-hercynylcysteine sulfoxide hydrolase  
+	BDNALMGG_02177 2-hydroxy-6-oxononadienedioate/2-hydroxy-6-oxononatrienedioate hydrolase  
+	BDNALMGG_02200 putative Nudix hydrolase NudL
+**Glicosilasas: 6**
+	BDNALMGG_00243 Biosynthetic peptidoglycan transglycosylase  
+	BDNALMGG_00638 Endolytic murein transglycosylase  
+	BDNALMGG_00786 DNA-3-methyladenine glycosylase 1  
+	BDNALMGG_00915 Uracil-DNA glycosylase  
+	BDNALMGG_01136 Biosynthetic peptidoglycan transglycosylase  
+	BDNALMGG_01145 Adenine DNA glycosylase
+**Glucosidasas: 8**
+	BDNALMGG_00306 Oligo-1,6-glucosidase  
+	BDNALMGG_00310 Bifunctional beta-D-glucosidase/beta-D-fucosidase  
+	BDNALMGG_00469 Thermostable beta-glucosidase B  
+	BDNALMGG_00505 Oligo-1,6-glucosidase  
+	BDNALMGG_01028 Oligo-1,6-glucosidase  
+	BDNALMGG_01206 Oligo-1,6-glucosidase  
+	BDNALMGG_01266 Bifunctional beta-D-glucosidase/beta-D-fucosidase  
+	BDNALMGG_01613 Beta-glucosidas
+**Fucosidasas: 2**
+	BDNALMGG_00310 Bifunctional beta-D-glucosidase/beta-D-fucosidase  
+	BDNALMGG_01266 Bifunctional beta-D-glucosidase/beta-D-fucosidase
+**Galactosidasas: 6**
+	BDNALMGG_00021 Beta-galactosidase BgaB  
+	BDNALMGG_00436 Beta-galactosidase  
+	BDNALMGG_00500 Alpha-galactosidase  
+	BDNALMGG_01177 Beta-galactosidase III  
+	BDNALMGG_01735 Beta-galactosidase  
+	BDNALMGG_02018 Beta-galactosidase LacZ
+
+Estas anotaciones fueron utilizadas para profundizar el análisis utilizando el software dbCAN, especializado en anotar enzimas activas en carbohidratos.
 ## Functional annotation
 
 # Conclusion
