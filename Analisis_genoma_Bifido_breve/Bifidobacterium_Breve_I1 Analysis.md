@@ -279,6 +279,10 @@ Se anotaron 2151 genes de los cuales con el propósito de este análisis destaca
 
 Estas anotaciones fueron utilizadas para profundizar el análisis utilizando el software dbCAN, especializado en anotar enzimas activas en carbohidratos.
 ## Functional annotation
+En una primera instacia y con fines de corroborar ciertos supuestos como la proporción del genoma cuya función está mapeada a el uso de carbohidratos, una propiedad muy común en el genero Bifidobacterium, se utilizó la herramienta BLAST KOALA. 
+Fig X. Resumen de resultados de BLAST KOALA
+Cabe destacar que se anotó alrededor de un 50% de los genes y 
+# Phylogeny
 
 # Conclusion
 

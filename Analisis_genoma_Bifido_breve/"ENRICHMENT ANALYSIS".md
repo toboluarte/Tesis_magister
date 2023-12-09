@@ -5,7 +5,7 @@ Sirve para caracterizar funciones individuales de genes y reconstruir KEGG pathw
 https://www.sciencedirect.com/science/article/pii/S002228361500649X?via%3Dihub
 # BlastKOALA
 
-![[Pasted image 20231115130830.png]]
+![[Pasted image 20231115130830.png|1000]]
 
 
 http://www.kegg.jp/kegg-bin/blastkoala_result?id=144665ebd0f76c0d52cd559c8f905203c63cbc2a&passwd=JIPtE7&type=blastkoala

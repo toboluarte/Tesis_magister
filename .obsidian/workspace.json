@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Analisis_genoma_Bifido_breve/SPADES.md"
               }
             }
           }
@@ -161,22 +161,31 @@
   },
   "active": "8f1394bb68331fa5",
   "lastOpenFiles": [
-    "Analisis_genoma_Bifido_breve/Bifidobacterium_Breve_I1 Analysis.md",
-    "Analisis_genoma_Bifido_breve/PHYLOGENY.md",
-    "Guidelines/Phylogenomics Guidelines.md",
-    "Analisis_genoma_Bifido_breve/BlastKoala_Relevantes.md",
-    "Analisis_genoma_Bifido_breve/FASTQC.md",
+    "Analisis_genoma_Bifido_breve/QUAST.md",
     "Analisis_genoma_Bifido_breve/PROKKA.md",
+    "Analisis_genoma_Bifido_breve/PHYLOGENY.md",
+    "Analisis_genoma_Bifido_breve/FASTQC.md",
+    "Analisis_genoma_Bifido_breve/BlastKoala_Relevantes.md",
+    "Analisis_genoma_Bifido_breve/Bifidobacterium_Breve_I1 Analysis.md",
     "Analisis_genoma_Bifido_breve/\"ENRICHMENT ANALYSIS\".md",
+    "Analisis_genoma_Bifido_breve/SPADES.md",
+    "Guidelines/MUMmer.md",
+    "Guidelines/dbCAN ussage.md",
+    "Guidelines/Anotación funcional.md",
+    "Guidelines/Carveme.md",
+    "Guidelines/Anexos/Diamond.md",
+    "Guidelines/Setup Config.md",
+    "Guidelines/Phylogenomics Guidelines.md",
+    "Guidelines/Memote.md",
+    "Guidelines/Genome assembly.md",
+    "Guidelines/Building a Genome scale Metabolic Model.md",
+    "README.md",
     "Templates/Genome analysis Report.md",
     "Templates/Paper.md",
     "Pensamientos_personales/Medium mZMB.md",
     "Pensamientos_personales/Human Milk Oligosaccharides.md",
     "Pensamientos_personales/CDS, ORF Y herramientas de anotación.md",
     "Tesis/Bibliographic Review.md",
-    "Analisis_genoma_Bifido_longum/\"Enrichment_Analisis_3\".md",
-    "Analisis_genoma_Bifido_longum/PROKKA_3.md",
-    "Analisis_genoma_Bifido_longum/FastQC_3.md",
-    "Analisis_genoma_Bifido_breve/SPADES.md"
+    "Analisis_genoma_Bifido_longum/\"Enrichment_Analisis_3\".md"
   ]
 }
