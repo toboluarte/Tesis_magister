@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8433f34ed898a6b9",
+        "id": "bfea34d921256471",
         "type": "tabs",
         "children": [
           {
-            "id": "8f1394bb68331fa5",
+            "id": "81b6b6090e772dfc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4354f981fe1d1ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analisis_genoma_Bifido_breve/PROKKA.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 202.5
   },
   "right": {
     "id": "9374b9dee15240de",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analisis_genoma_Bifido_breve/SPADES.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analisis_genoma_Bifido_breve/SPADES.md"
+                "file": "README.md"
               }
             }
           }
@@ -159,33 +147,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8f1394bb68331fa5",
+  "active": "81b6b6090e772dfc",
   "lastOpenFiles": [
-    "Analisis_genoma_Bifido_breve/QUAST.md",
-    "Analisis_genoma_Bifido_breve/PROKKA.md",
-    "Analisis_genoma_Bifido_breve/PHYLOGENY.md",
-    "Analisis_genoma_Bifido_breve/FASTQC.md",
-    "Analisis_genoma_Bifido_breve/BlastKoala_Relevantes.md",
-    "Analisis_genoma_Bifido_breve/Bifidobacterium_Breve_I1 Analysis.md",
-    "Analisis_genoma_Bifido_breve/\"ENRICHMENT ANALYSIS\".md",
-    "Analisis_genoma_Bifido_breve/SPADES.md",
-    "Guidelines/MUMmer.md",
-    "Guidelines/dbCAN ussage.md",
-    "Guidelines/Anotación funcional.md",
-    "Guidelines/Carveme.md",
+    "Bibliographic_Review/Books_resume/Systems Biology Constraint-based Reconstruction and Analysis.md",
+    "Untitled",
+    "Bibliographic_Review/Papers/A protocol for generating a high-qualitygenome-scale metabolic reconstruction.pdf",
+    "Bibliographic_Review/Papers/A workflow for generating multi-straingenome-scale metabolic models of prokaryotes.md",
+    "Bibliographic_Review/Papers/A protocol for generating a high-qualitygenome-scale metabolic reconstruction.md",
     "Guidelines/Anexos/Diamond.md",
     "Guidelines/Setup Config.md",
     "Guidelines/Phylogenomics Guidelines.md",
+    "Guidelines/MUMmer.md",
     "Guidelines/Memote.md",
     "Guidelines/Genome assembly.md",
+    "Guidelines/dbCAN ussage.md",
+    "Guidelines/Carveme.md",
     "Guidelines/Building a Genome scale Metabolic Model.md",
-    "README.md",
-    "Templates/Genome analysis Report.md",
-    "Templates/Paper.md",
+    "Guidelines/Anotación funcional.md",
     "Pensamientos_personales/Medium mZMB.md",
     "Pensamientos_personales/Human Milk Oligosaccharides.md",
     "Pensamientos_personales/CDS, ORF Y herramientas de anotación.md",
+    "Pensamientos_personales/Anexos/medium.png",
+    "Templates/Genome analysis Report.md",
+    "Templates/Paper.md",
+    "Tesis/Metatranscriptomic data incorporation.md",
+    "Tesis/Metabolic Model Pediococcus PT22.md",
+    "Tesis/Metabolic Model Bifidobacterium Breve I1.md",
+    "Tesis/Metabolic Model Bifidobacterium bifidum JCM1254.md",
+    "Tesis/Ecological interaction analysis.md",
     "Tesis/Bibliographic Review.md",
-    "Analisis_genoma_Bifido_longum/\"Enrichment_Analisis_3\".md"
+    "Bibliographic_Review/Books_resume/Pasted image 20231123164504.png",
+    "Bibliographic_Review/Books_resume/An Introduction to Computational Systems Biology.md",
+    "Bibliographic_Review/Papers/Memote A community driven effort towards a standardized genome-scale metabolic model test suite.pdf",
+    "Bibliographic_Review/Papers/Human Milk Oligosaccharides and infant Gut Bifidobacteria Molecular Strategies for their Utilization.pdf",
+    "Bibliographic_Review/Papers/Fast automated reconstruction of genome-scalemetabolic models for microbial species andcommunities.pdf",
+    "Bibliographic_Review/Papers/Evidence_of_a_multi_level_trophic_organization.pdf",
+    "Model_Curation/Bacteroides_thetaiotaomicron"
   ]
 }

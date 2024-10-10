@@ -5,3 +5,4 @@ testeando
 Working fine with backup command, but not with the push command.
 We should go deep in Obsidian knowledge
 
+vamos a hacer un cambio en esta mierda 
